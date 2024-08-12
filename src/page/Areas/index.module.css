@@ -1,0 +1,41 @@
+.liveTracker__areas {
+  width: 100%;
+  margin-top: 13rem;
+}
+
+.container {
+  gap: 3rem;
+}
+
+.liveTracker__ares-left {
+  flex: 2;
+}
+
+.liveTracker__ares-right {
+  flex: 1;
+}
+
+.liveTracker__ares-left,
+.liveTracker__ares-right {
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  height: 668px;
+  width: 100%;
+}
+
+@media screen and (max-width: 80rem) {
+  .liveTracker__areas {
+    margin-top: 7rem;
+  }
+}
+
+@media screen and (max-width: 60rem) {
+  .container {
+    flex-direction: column !important;
+  }
+  .liveTracker__ares-left,
+  .liveTracker__ares-right {
+    width: 100%;
+  }
+}

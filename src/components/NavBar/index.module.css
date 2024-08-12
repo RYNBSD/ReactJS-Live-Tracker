@@ -1,0 +1,40 @@
+.liverTracker__header-navbar {
+  background-color: #262c7c;
+  width: 100%;
+  border-bottom: 1px solid #bec1e020;
+}
+
+.container {
+  justify-content: space-between !important;
+  padding: 1rem 0;
+}
+
+.liveTracker__header-navbar_logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+  width: 40%;
+}
+
+.liveTracker__header-navbar_list {
+  list-style: none;
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.liveTacker__header-navbar_list-item:hover .liveTracker__header-navbar_list-link {
+  color: #eb0065;
+}
+
+.liveTracker__header-navbar_list a {
+  color: #bec1e0;
+  transition: all .5s;
+}
+
+@media screen and (max-width: 40rem) {
+  .liveTracker__header-navbar_logo > h1 {
+    font-size: 20px;
+  }
+}

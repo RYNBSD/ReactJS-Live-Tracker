@@ -1,0 +1,26 @@
+.liveTracker__blogs {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.container {
+  flex-direction: column !important;
+  gap: 5rem;
+}
+
+.liveTracker__blogs-head > h1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: .2px;
+  color: #262c7c;
+}
+
+.liveTracker__blogs-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}

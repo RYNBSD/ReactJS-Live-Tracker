@@ -1,0 +1,48 @@
+.areas-right {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 1rem;
+  gap: 1rem;
+}
+
+.areas-right-search {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.areas-right-search-input {
+  border: 1px solid #bec1e020;
+  padding: .5rem .1rem;
+}
+
+.areas-right-search-global {
+  border: 1px solid #bec1e097;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+  border-radius: 8px;
+}
+
+.areas-right-search-global > h4 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #262c7c;
+}
+
+.split {
+  width: 90%;
+  height: 1px;
+  margin: 0 auto;
+  border-radius: #bec1e020;
+}
+
+.areas-right-countries {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}

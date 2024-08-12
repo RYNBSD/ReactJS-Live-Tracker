@@ -1,0 +1,20 @@
+.btn {
+  width: 189px;
+  height: 44px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  background-color: #eb0065;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.makeTransparent {
+  background-color: transparent;
+  border: 3px solid #fff;
+}

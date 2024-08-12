@@ -1,0 +1,14 @@
+.liveTracker__header {
+  width: 100%;
+  height: 100vh;
+  background-color: #262c7c;
+}
+
+@media screen and (max-width: 60rem) {
+  .liveTracker__header {
+    height: fit-content;
+  }
+  .more-space {
+    height: 30px;
+  }
+}

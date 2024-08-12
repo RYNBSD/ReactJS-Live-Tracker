@@ -1,0 +1,46 @@
+.status {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.status-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: .5rem;
+}
+
+.status-body > h4 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #6468a1;
+}
+
+.status-body > h1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  color: #262c7c;
+}
+
+.percent {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.blue {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #00db75;
+}
+
+.red {
+  color: #ff3e29 !important;
+}
